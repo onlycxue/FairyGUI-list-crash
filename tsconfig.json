@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "lib":[
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true 
+    // "typeRoots": [
+    //   "node_modules/@types"
+    // ],
+    // // "outDir":"dist/js",
+    // "types":[
+    //   "jsonp",
+    //   "jquery",
+    //   "query-string"
+    // ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist/",
+    "bin/"
+  ]
+}

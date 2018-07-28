@@ -1,0 +1,20 @@
+{
+  "name": "uicrash-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "server": "webpack-dev-server --inline --content-base ./dist --config webpack.config.js --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.2",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.9.1"
+  }
+}
